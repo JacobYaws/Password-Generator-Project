@@ -24,7 +24,7 @@ For this project, I was tasked with creating a password generator that would ran
 
 ## Screenshots
   
-<img src="https://github.com/JacobYaws/Password-Generator-Project/blob/main/assets/PasswordGeneratorGIF.mp4">
+<img src="https://github.com/JacobYaws/Password-Generator-Project/blob/main/assets/PasswordGenerator.png">
 
 
 ## Useful Links  
