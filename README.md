@@ -1,16 +1,39 @@
-# Password Generator Starter Code
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
+# Password Generator Project
+
+## Description
+
+For this project, I was tasked with creating a password generator that would randomly generate a password under a certain criteria chosen by the user and be within a certain length range.
+
+
+## Table of Contents
+
+[Overview](#overview)
+[Screenshots](#screenshots)
+[Links](#links)
+[References](References)
+
+
+## Overview
+
+-This password generator uses prompts to let the user select how long they want their password to be, ranging from 8 to 128 characters. A few more prompts will pop up that lets the user choose if they want to use lowercase, uppercase, numbers, and/or special characters for their password.
+-If the user does not select any options for what characters to use, the user will be prompted with a message saying the password will be made with lowercase characters, and will persistently keep prompting the user until they accept. 
+-If the user selects a number that is outside of the range, or uses any non-number character, they will keep being prompted to enter in a suitable number before continuing.
+-Once the user gets through all of the prompts, they will be brought to the password generator that will create a new, randomly generated password within the set parameters each time they click the 'generate password' button.
+
+
+
+## Screenshots
+  
+<img src="https://github.com/JacobYaws/Password-Generator-Project/blob/main/assets/PasswordGeneratorGIF.mp4">
+
+
+## Useful Links  
+Github Repository- https://github.com/JacobYaws/Password-Generator-Project
+    -To download, navigate to the repository and click on the green 'Code' button. Copy the ssh link and clone it in a terminal by using 'git clone git@github.com:JacobYaws/Password-Generator-Project.git'
+
+Live Webpage- https://jacobyaws.github.io/Password-Generator/
+
+
+## References
+
+Help with the password generator and prompts- https://stackoverflow.com/questions/62627469/random-password-generator-with-prompts
