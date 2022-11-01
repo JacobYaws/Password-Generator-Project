@@ -31,7 +31,7 @@ For this project, I was tasked with creating a password generator that would ran
 Github Repository- https://github.com/JacobYaws/Password-Generator-Project
     -To download, navigate to the repository and click on the green 'Code' button. Copy the ssh link and clone it in a terminal by using 'git clone git@github.com:JacobYaws/Password-Generator-Project.git'
 
-Live Webpage- https://jacobyaws.github.io/Password-Generator/
+Live Webpage- https://jacobyaws.github.io/Password-Generator-Project/
 
 
 ## References
